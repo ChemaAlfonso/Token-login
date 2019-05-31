@@ -29,7 +29,7 @@ export class AuthService {
     localStorage.removeItem('token');
   }
 
-  login( usuario: UsuarioModel) {
+  login( usuario: UsuarioModel ) {
     const authData = {
       email: usuario.email,
       password: usuario.password,
